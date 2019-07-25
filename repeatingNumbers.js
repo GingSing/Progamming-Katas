@@ -8,7 +8,7 @@ let repeatNumbers = function(data) {
     }
     totalResult.push(tempResult);
   }
-  return totalResult.join(", ");
+  return totalResult.join(", "); 
 };
 
 console.log(repeatNumbers([[1, 10]]));
